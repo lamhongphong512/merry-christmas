@@ -23,11 +23,11 @@ html, body {
     color: #f74747;
     font-family: "Avenir";
     font-weight: 100;
-    font-size: 70px;
+    font-size: 20px;
     height: 25px;
     align-self: flex-end;
     font-style: italic;
-    animation: textfly 15s forwards;
+    animation: textfly 8s forwards;
     opacity: 0;
   }
   
