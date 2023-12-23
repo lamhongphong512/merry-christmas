@@ -1,6 +1,6 @@
 let container = document.getElementById('container');
-let count = 50;
-for(var i = 0; i<50; i++){
+let count = 300;
+for(var i = 0; i<300; i++){
     let leftSnow = Math.floor(Math.random() * container.clientWidth);
     let topSnow = Math.floor(Math.random() * container.clientHeight);
     let widthSnow = Math.floor(Math.random() * 50);
