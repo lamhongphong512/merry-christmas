@@ -2,7 +2,7 @@
 body{
     margin:0;
     background-color: rgb(127, 189, 255);
-    background-image: url(cay-thong-noel2.jpg);
+    background-image: url(OIP.jpg);
 }
 #container{
     position: relative;
@@ -37,5 +37,24 @@ body{
     100%{
         opacity: 0;
         transform: translate(100px,50vh);
+    }
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Avenir';
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes textfly {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
     }
 }

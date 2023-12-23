@@ -18,13 +18,17 @@ html, body {
     display: block;
     text-align: center;
     margin: 0;
+    margin-bottom: 222px;
     padding: 0;
-    color: #555;
+    color: #f74747;
     font-family: "Avenir";
     font-weight: 100;
-    font-size: 13px;
+    font-size: 100px;
     height: 25px;
     align-self: flex-end;
+    font-style: italic;
+    animation: textfly 15s forwards;
+    opacity: 0;
   }
   
   .wrap-present {
@@ -54,6 +58,7 @@ html, body {
             animation: zoomIn 1s ease-in forwards;
     transform: rotateX(-103deg) rotateY(-180deg);
     transition: transform 400ms;
+    margin-top: 318px;
   }
   .present-box.open .present {
     pointer-events: auto;
@@ -65,7 +70,7 @@ html, body {
     transform: translateZ(0px);
   }
   .present-box.open > .side {
-    opacity: 0.3;
+    opacity: 0;
     transition: opacity 500ms 600ms;
   }
   .present-box.open > .side.back {
@@ -209,5 +214,14 @@ html, body {
     }
     100% {
       transform: rotateX(-167deg) rotateY(-180deg) translateZ(-15px) scale(1.2);
+    }
+  }
+
+  @keyframes textfly {
+    from{
+      opacity:0;
+    }
+    to {
+      opacity: 1;
     }
   }
