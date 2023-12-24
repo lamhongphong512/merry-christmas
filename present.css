@@ -17,8 +17,8 @@ html, body {
     width: 100%;
     display: block;
     text-align: center;
-    margin: 0;
-    margin-bottom: 195px;
+    
+    margin-bottom: 192px;
     padding: 0;
     color: #00ffde;
     font-family: "Allura";
@@ -27,7 +27,7 @@ html, body {
     height: 25px;
     align-self: flex-end;
     font-style: italic;
-    animation: textfly 8s forwards;
+    animation: textfly 13s forwards;
     opacity: 0;
   }
   
@@ -58,7 +58,7 @@ html, body {
             animation: zoomIn 1s ease-in forwards;
     transform: rotateX(-103deg) rotateY(-180deg);
     transition: transform 400ms;
-    margin-top: 318px;
+    margin-top: 330px;
   }
   .present-box.open .present {
     pointer-events: auto;
