@@ -17,8 +17,7 @@ html, body {
     width: 100%;
     display: block;
     text-align: center;
-    
-    margin-bottom: 192px;
+    margin-bottom: 197px;
     padding: 0;
     color: #00ffde;
     font-family: "Allura";
@@ -29,6 +28,7 @@ html, body {
     font-style: italic;
     animation: textfly 13s forwards;
     opacity: 0;
+    z-index: 1;
   }
   
   .wrap-present {
