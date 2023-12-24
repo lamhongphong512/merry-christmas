@@ -26,7 +26,7 @@ html, body {
     height: 25px;
     align-self: flex-end;
     font-style: italic;
-    animation: textfly 13s forwards;
+    animation: textfly 15s forwards;
     opacity: 0;
     z-index: 1;
   }
@@ -58,7 +58,7 @@ html, body {
             animation: zoomIn 1s ease-in forwards;
     transform: rotateX(-103deg) rotateY(-180deg);
     transition: transform 400ms;
-    margin-top: 330px;
+    margin-top: 320px;
   }
   .present-box.open .present {
     pointer-events: auto;
